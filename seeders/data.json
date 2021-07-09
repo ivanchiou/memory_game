@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "name": "Mazdaxxxxyyyy",
+      "name": "Mazda",
       "color": "blue",
       "description": "amazing",
       "price": "80000",
@@ -29,7 +29,7 @@
       "image_link": "https://loremflickr.com/300/240/car?lock=8"
     },
     {
-      "name": "Mazdaxxxxyyyy",
+      "name": "Mazda",
       "color": "blue",
       "description": "amazing",
       "price": "80000",
@@ -57,7 +57,35 @@
       "image_link": "https://loremflickr.com/300/240/car?lock=8"
     },
     {
-      "name": "Mazdaxxxxyyyy",
+      "name": "Honda",
+      "color": "blue",
+      "description": "amazing",
+      "price": "80000",
+      "image_link": "https://loremflickr.com/300/240/car?lock=9"
+    },
+    {
+      "name": "Toyota",
+      "color": "red",
+      "description": "lovely",
+      "price": "20000",
+      "image_link": "https://loremflickr.com/300/240/car?lock=10"
+    },
+    {
+      "name": "Lexus",
+      "color": "yellow",
+      "description": "small",
+      "price": "50000",
+      "image_link": "https://loremflickr.com/300/240/car?lock=11"
+    },
+    {
+      "name": "BMW",
+      "color": "silver",
+      "description": "luxury",
+      "price": "1000000",
+      "image_link": "https://loremflickr.com/300/240/car?lock=12"
+    },
+    {
+      "name": "Mazda",
       "color": "blue",
       "description": "amazing",
       "price": "80000",
@@ -85,60 +113,32 @@
       "image_link": "https://loremflickr.com/300/240/car?lock=8"
     },
     {
-      "name": "Mazdaxxxxyyyy",
+      "name": "Honda",
       "color": "blue",
       "description": "amazing",
       "price": "80000",
-      "image_link": "https://loremflickr.com/300/240/car?lock=5"
+      "image_link": "https://loremflickr.com/300/240/car?lock=9"
     },
     {
-      "name": "March",
+      "name": "Toyota",
       "color": "red",
       "description": "lovely",
       "price": "20000",
-      "image_link": "https://loremflickr.com/300/240/car?lock=6"
+      "image_link": "https://loremflickr.com/300/240/car?lock=10"
     },
     {
-      "name": "Subaru",
+      "name": "Lexus",
       "color": "yellow",
       "description": "small",
       "price": "50000",
-      "image_link": "https://loremflickr.com/300/240/car?lock=7"
+      "image_link": "https://loremflickr.com/300/240/car?lock=11"
     },
     {
-      "name": "Benz",
+      "name": "BMW",
       "color": "silver",
       "description": "luxury",
       "price": "1000000",
-      "image_link": "https://loremflickr.com/300/240/car?lock=8"
-    },
-    {
-      "name": "Mazdaxxxxyyyy",
-      "color": "blue",
-      "description": "amazing",
-      "price": "80000",
-      "image_link": "https://loremflickr.com/300/240/car?lock=5"
-    },
-    {
-      "name": "March",
-      "color": "red",
-      "description": "lovely",
-      "price": "20000",
-      "image_link": "https://loremflickr.com/300/240/car?lock=6"
-    },
-    {
-      "name": "Subaru",
-      "color": "yellow",
-      "description": "small",
-      "price": "50000",
-      "image_link": "https://loremflickr.com/300/240/car?lock=7"
-    },
-    {
-      "name": "Benz",
-      "color": "silver",
-      "description": "luxury",
-      "price": "1000000",
-      "image_link": "https://loremflickr.com/300/240/car?lock=8"
+      "image_link": "https://loremflickr.com/300/240/car?lock=12"
     }               
   ]
 }

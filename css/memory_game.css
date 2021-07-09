@@ -39,6 +39,14 @@
   transform: rotateY(180deg);
 }
 
+.card-item.matched {
+  border: 5px solid #ff0000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 13px;
+}
+
 .front-face {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);

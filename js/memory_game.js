@@ -12,12 +12,7 @@ function renderItems(items) {
         </div>`;
   });
 
-  const elements = document.getElementsByClassName("card-item");
-  for (let index = 0; index < elements.length; index++) {
-    elements[index].onclick = function () {
-        flipCard(this);
-    };
-  }
+  shuffle(document.querySelectorAll('.card-item'));
 }
 
 function flipCard(item) {
@@ -44,7 +39,8 @@ function disableMatchedCards() {
   secondCard.onclick = null;
   
   setTimeout(() => {
-    alert("match!");
+    firstCard.classList.add('matched');
+    secondCard.classList.add('matched');
     resetBoard();
   }, 1000);
 }
@@ -73,6 +69,16 @@ function readJSONFile(file) {
       totalItems = data.items;
       renderItems(totalItems);
     });
+}
+
+function shuffle(cards) {
+  cards.forEach(card => {
+    let randomPos = Math.floor(Math.random() * cards.length);
+    card.style.order = randomPos;
+    card.onclick = function () {
+        flipCard(this);
+    };
+  });
 }
 
 readJSONFile("seeders/data.json");
