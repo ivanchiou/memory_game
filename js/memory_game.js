@@ -22,7 +22,6 @@ function renderItems(items) {
 
 function flipCard(item) {
   if (lockBoard) return;
-
   if (item === firstCard) return;
   
   item.classList.add('flip');
@@ -30,7 +29,6 @@ function flipCard(item) {
   if (!hasFlippedCard) {
     hasFlippedCard = true;
     firstCard = item;
-    return;
   } else {
     secondCard = item;
     checkForMatch();
@@ -46,8 +44,8 @@ function disableMatchedCards() {
   secondCard.onclick = null;
   
   setTimeout(() => {
-      alert("match!");
-      resetBoard();
+    alert("match!");
+    resetBoard();
   }, 1000);
 }
 
