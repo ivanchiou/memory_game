@@ -12,7 +12,7 @@ function renderItems(items) {
         </div>`;
   });
 
-  shuffle(document.querySelectorAll('.card-item'));
+  shuffleAndConnectClick(document.querySelectorAll('.card-item'));
 }
 
 function flipCard(item) {
@@ -71,7 +71,7 @@ function readJSONFile(file) {
     });
 }
 
-function shuffle(cards) {
+function shuffleAndConnectClick(cards) {
   cards.forEach(card => {
     let randomPos = Math.floor(Math.random() * cards.length);
     card.style.order = randomPos;
