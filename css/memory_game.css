@@ -2,6 +2,7 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  max-width: 1000px;
 }
 
 .card-item:hover {
@@ -11,14 +12,14 @@
 }
 
 .card-item {
-  flex: 0 0 33.3%;
+  flex: 0 0 23%;
   margin: 5px;
   border: 2px solid #232f3e;
   border-radius: 10px;
   font-size: 20px;
   text-align: center;
-  max-width: 240px;
   position: relative;
+  max-width: 220px;
   height: 240px;
   transform-style: preserve-3d;
   transition: transform .5s;
@@ -32,6 +33,7 @@
   height: 100%;
   position: absolute;
   background: #febd69;
+  backface-visibility: hidden;
 }
 
 .card-item.flip {

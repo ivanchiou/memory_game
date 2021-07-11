@@ -66,8 +66,7 @@ function readJSONFile(file) {
       return response.json();
     })
     .then((data) => {
-      totalItems = data.items;
-      renderItems(totalItems);
+      renderItems(data.items);
     });
 }
 
